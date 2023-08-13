@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pinterest</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+  <!-- navbar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-white" style="width: 100%;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html" >
+          <img src="./logo.png" alt="" style="width: 23px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="btn btn-light rounded-5 focus-ring me-2" aria-current="page" href="./index.html"><b>Home</b></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="btn btn-light rounded-5 nav-link dropdown-toggle focus-ring" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Create</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./create.html">Create Idea Pin</a></li>
+                <li><a class="dropdown-item" href="./create.html">Create Pin</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-5 rounded-5 focus-ring" type="text" placeholder="Search" aria-label="Search"
+              style="width: 1400px; height: 48px;">
+            <button class="btn btn-light rounded-circle focus-ring  me-2" type="button"><svg class="gUZ ztu U9O kVc"
+                height="24" width="24" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img">
+                <path
+                  d="M12 24c-1.66 0-3-1.34-3-3h6c0 1.66-1.34 3-3 3zm7-10.83c1.58 1.52 2.67 3.55 3 5.83H2c.33-2.28 1.42-4.31 3-5.83V7c0-3.87 3.13-7 7-7s7 3.13 7 7v6.17z">
+                </path>
+              </svg></button>
+            <!-- dropdown -->
+            <div class="dropdown">
+              <button class="btn btn-light rounded-pill dropdown-toggle focus-ring" role="button" type="submit"
+                aria-expanded="false" data-bs-toggle="dropdown"><img src="./pfpmain.webp" class="rounded-circle" alt=""
+                  style="height: 30px;"></button>
+                  <ul class="dropdown-menu" style="width: 250px;">
+                    <li><h6 class="ps-3 "><small>Currently in</small></h6></li>
+                    <li><button class="dropdown-item rounded-4"><img src="./pfpmain.webp" alt="" style="width: 60px; height: 60px;" class="rounded-circle"><p class="ps-2">Drake  <br><b> Personal </b><br>Drake@gmail.com</p></button></li>
+                    <li><h6 class="ps-3 "><small>More options</small></h6></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Settings</a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Tune your home feed</a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Install the Window app</a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Your privacy rights</a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Get help <svg class="Hn_ gUZ R19 U9O kVc float-end" height="12" width="12" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M20.97 12a2 2 0 0 1-1.99-2V7.81l-7.07 7.1a2 2 0 1 1-2.83-2.83L16.16 5h-2.17a2 2 0 0 1 0-4H23l-.03 9a2 2 0 0 1-2 2zM6.75 4a1.25 1.25 0 1 1 0 2.5H3.5v14h14v-3.26a1.25 1.25 0 1 1 2.5 0v4.51c0 .69-.56 1.25-1.25 1.25H2.25C1.56 23 1 22.44 1 21.75V5.25C1 4.56 1.56 4 2.25 4z"></path></svg></a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">See terms of Service<svg class="Hn_ gUZ R19 U9O kVc float-end" height="12" width="12" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M20.97 12a2 2 0 0 1-1.99-2V7.81l-7.07 7.1a2 2 0 1 1-2.83-2.83L16.16 5h-2.17a2 2 0 0 1 0-4H23l-.03 9a2 2 0 0 1-2 2zM6.75 4a1.25 1.25 0 1 1 0 2.5H3.5v14h14v-3.26a1.25 1.25 0 1 1 2.5 0v4.51c0 .69-.56 1.25-1.25 1.25H2.25C1.56 23 1 22.44 1 21.75V5.25C1 4.56 1.56 4 2.25 4z"></path></svg></a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">See Privacy Policy<svg class="Hn_ gUZ R19 U9O kVc float-end" height="12" width="12" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M20.97 12a2 2 0 0 1-1.99-2V7.81l-7.07 7.1a2 2 0 1 1-2.83-2.83L16.16 5h-2.17a2 2 0 0 1 0-4H23l-.03 9a2 2 0 0 1-2 2zM6.75 4a1.25 1.25 0 1 1 0 2.5H3.5v14h14v-3.26a1.25 1.25 0 1 1 2.5 0v4.51c0 .69-.56 1.25-1.25 1.25H2.25C1.56 23 1 22.44 1 21.75V5.25C1 4.56 1.56 4 2.25 4z"></path></svg></a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Be a beta tester<svg class="Hn_ gUZ R19 U9O kVc float-end" height="12" width="12" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M20.97 12a2 2 0 0 1-1.99-2V7.81l-7.07 7.1a2 2 0 1 1-2.83-2.83L16.16 5h-2.17a2 2 0 0 1 0-4H23l-.03 9a2 2 0 0 1-2 2zM6.75 4a1.25 1.25 0 1 1 0 2.5H3.5v14h14v-3.26a1.25 1.25 0 1 1 2.5 0v4.51c0 .69-.56 1.25-1.25 1.25H2.25C1.56 23 1 22.44 1 21.75V5.25C1 4.56 1.56 4 2.25 4z"></path></svg></a></li>
+                    <li><a class="dropdown-item rounded-4" href="#">Log out</a></li>
+
+                   
+                </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+    <!-- cards -->
+    <div class="container-fluid row mx-2 d-flex ">
+     <!-- 1 -->
+    <div class="col-2 card me-3 border border-0 ms-4" style="width: 15rem;  height: 100%;">
+      <img src="./images/jjk.jpg" class="card-img-top rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1 ">Gojo Satouro| Geto Suguru| Jujutsu Kaisen</p>
+      <!-- profiles -->
+      <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Sara</a></p>
+    </div>
+    <!-- 2 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/wallpaper.jpg" class="card-img-top  rounded-4" alt="city">
+      <p class="card-text px-2 pt-1">City Wallpaper| Aesthetic Wallpaper</p>
+    </div>
+    <!-- 3 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/ichigo.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Ichigo Kurosaki| Bleach</p>
+      <!-- profiles -->
+      <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Carl</a></p>
+    </div>
+    <!-- 4 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+    <video src="./images/sea.mp4" autoplay class="card-img-top  rounded-4" loop></video>
+      <p class="card-text px-2 pt-1">Loss in sea bliss</p>
+      <!-- profiles -->
+      <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Harry</a></p>
+    </div>
+    <!-- 5 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/nasa.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Rockwell-Space-Shuttle</p>
+    </div>
+    <!-- 6 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/avengers.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Infinity Saga</p>
+      <!-- profiles -->
+      <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Taylor</a></p>
+    </div>
+    <!-- 7 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/music.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Discover the 90s songs</p>
+     
+      </div>
+    <!-- 8 -->
+    <div class="col-2 card me-3 border border-0 ms-4" style="width: 15rem; height: 100%;">
+     <video src="./images/coffee.mp4" autoplay class="card-img-top  rounded-4" loop></video>
+      <p class="card-text px-2 pt-1">Dalgona Coffee</p>
+     <!-- profiles -->
+    <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Stargirl</a></p>
+      </div>
+    <!-- 9 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/flower.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Lily| HD wallpaper</p>
+     
+    </div>
+    <!-- 10 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/nanami.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Nanami Kento| Jujutsu kaisen</p>
+    </div>
+    <!-- 11 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/cillianmurphy.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Cillian Murphy| Peaky Blinders| Oppenheimer</p>
+      <!-- profiles -->
+      <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Tommy</a></p>
+    </div>
+    <!-- 12 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/death note.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Death Note| Ryuk</p>
+       <!-- profiles -->
+       <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Rosey</a></p>
+      </div>
+    <!-- 13 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/sherlock.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Sherlock Holmes| Bakerstreet| 221B</p>
+      </div>
+    <!-- 14 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/cloud.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">The realistic nature</p>
+     <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Astronic</a></p>  
+    </div>
+    <!-- 15 -->
+    <div class="col-2 card me-3 border border-0 ms-4" style="width: 15rem; height: 100%;">
+      <img src="./images/city.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Zebra Crossing</p>
+      <!-- profiles -->
+    <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Nav</a></p>  
+    </div>
+    <!-- 16 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/andrew.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">The best of spidermans| Andrew Garfield</p>
+    
+    </div>
+    <!-- 17 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/meg.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">The Meg</p>
+    </div>
+    <!-- 18 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/camera.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Vintage Polaroid Camera</p>
+      <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Xavier</a></p>
+    </div>
+    <!-- 19 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <video src="./images/ferris.mp4" autoplay class="card-img-top  rounded-4" loop></video>
+       <p class="card-text px-2 pt-1">Ferris Wheel| Sky</p>
+      
+    </div>
+    <!-- 20 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/moon.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Lunar Phases</p>
+    </div>
+    <!-- 21 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+    <img src="./images/gojo.jpg" class="card-img-top  rounded-4" alt="jjk">
+    <p class="card-text px-2 pt-1">Gojo Satouro| JJK| Season 2</p>
+     <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Zara</a></p>
+    </div>
+    <!-- 22 -->
+    <div class="col-2 card me-3 border border-0 ms-4" style="width: 15rem; height: 100%;">
+      <img src="./images/loki.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Prince of Asgard| The God of Mischief| Loki</p>
+       <!-- profiles -->
+       <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Ufaq</a></p>
+    </div>
+    <!-- 23 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/arts.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Art Supplies</p>
+      </div>
+    <!-- 24 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/revolver.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Single action Revolvers</p>
+     <!-- profiles -->
+      <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Birbal</a></p>
+    </div>
+    <!-- 25 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/lion.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">The lion King</p>
+   
+    </div>
+    <!-- 26 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+   <img src="./images/nobara.jpg" class="card-img-top  rounded-4" alt="jjk">
+    <p class="card-text px-2 pt-1">Nobara Kugisaki</p>
+    </div>
+    <!-- 27 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+   <img src="./images/peaky.jpg" class="card-img-top  rounded-4" alt="jjk">
+   <p class="card-text px-2 pt-1">Thomas Shelby| Peaky Blinders</p>
+   <!-- profiles -->
+  <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Mahir</a></p>
+  </div>
+    <!-- 28 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+    <video src="./images/road.mp4" autoplay class="card-img-top  rounded-4" loop></video>
+    <p class="card-text px-2 pt-1">Through the mountains</p>
+    <!-- profiles -->
+    <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Haya Hanam</a></p>
+    </div>
+    <!-- 29 -->
+    <div class="col-2 card me-3 border border-0 ms-4" style="width: 15rem; height: 100%;">
+    <img src="./images/john wick.jpg" class="card-img-top  rounded-4" alt="jjk">
+    <p class="card-text px-2 pt-1">"The John Wick"</p>
+     <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Jake</a></p>
+    </div>
+    <!-- 30 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/guardians.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Guardians of the Galaxy</p>
+    </div>
+    <!-- 31 -->
+    <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/asta.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Asta| Black Clover</p>
+      <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Faris</a></p>
+     </div>
+     <!-- 32 -->
+     <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <video src="./images/taksim square.mp4" autoplay class="card-img-top  rounded-4" loop></video>
+      <p class="card-text px-2 pt-1">Taksim Square| Istanbul</p>
+      </div>
+     <!-- 33 -->
+     <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/cat.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Cat| Pets to keep</p>
+     </div>
+     <!-- 34 -->
+     <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/thor.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Thor| God of Thunder</p>
+      <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Elizabeth</a></p>
+     </div> 
+     <!-- 35 -->
+     <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <img src="./images/rainbow.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Rainbow Road| Wallpaper</p>
+      <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Icarus</a></p>
+     </div>
+     <!-- 36 -->
+     <div class="col-2 card me-3 border border-0 ms-4" style="width: 15rem; height: 100%;">
+      <img src="./images/harley.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Harley davidson| Custon built bike gallery</p>
+       <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Daedalus</a></p>
+     </div>
+     <!-- 37 -->
+     <div class="col-2 card me-3 border border-0 " style="width: 15rem; height: 100%;">
+      <img src="./images/tanjiro.jpg" class="card-img-top  rounded-4" alt="jjk">
+      <p class="card-text px-2 pt-1">Tanjiro Kamado| Hinokami Kagura</p>
+       <!-- profiles -->
+     <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Unknown</a></p>
+     </div>
+     <!-- 38 -->
+      <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+      <video src="./images/traffic.mp4" autoplay class="card-img-top  rounded-4" loop></video>
+      <p class="card-text px-2 pt-1">Running Traffic| New York</p>
+      </div>
+      <!-- 39 -->
+      <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+        <img src="./images/weeknd.jpg" class="card-img-top  rounded-4" alt="jjk">
+        <p class="card-text px-2 pt-1">The Weeknd| Starboy| Poster</p>
+      </div>
+      <!-- 40 -->
+      <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+        <img src="./images/dazai.jpg" class="card-img-top  rounded-4" alt="jjk">
+        <p class="card-text px-2 pt-1">Osamu Dazai| Bungou Stray Dogs</p>
+         <!-- profiles -->
+       <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Evelyn</a></p>
+      </div>
+      <!-- 41 -->
+      <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+        <img src="./images/library.jpg" class="card-img-top  rounded-4" alt="jjk">
+        <p class="card-text px-2 pt-1">The library of France</p>
+      </div>
+       <!-- 42 -->
+       <div class="col-2 card me-3 border border-0" style="width: 15rem; height: 100%;">
+        <img src="./images/miles.jpg" class="card-img-top  rounded-4" alt="jjk">
+        <p class="card-text px-2 pt-1">MIles Morales| Into the Spider-Verse</p>
+         <!-- profiles -->
+       <p class="ps-2"><img src="./pfp.png" style="width: 30px;" alt="" class="me-1"><a href="" class="text-decoration-none link-dark">Sam</a></p>
+      </div>
+      
+    </div>
+      </div>
+      </div>
+      </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
